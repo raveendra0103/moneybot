@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Money Bot</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<body>
+    <h1>Login</h1>
+  <div class="row">
+        <div class="col-md-6">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="login">Login with Alice Blue</label>
+                    <button id="login" class="btn btn-default" type="submit">Login</button>
+                    </button>
+                </div>
+            </form>
+        </div>
+   <div class="row">
+        <div class="col-md-12">
+            <table id="loginstatus" class="table table-striped">
+                <thead>
+                <tr>
+                    <th> What is the status?</th>
+                </tr>
+                </thead>
+                <tbody id="loginstatusmessage">
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
