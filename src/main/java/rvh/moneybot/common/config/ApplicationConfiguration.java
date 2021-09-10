@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@PropertySource("file:D:\\workspace\\moneybot\\src\\main\\resources\\moneybot.properties")
+@PropertySource(value = "classpath:moneybot.properties")
 public class ApplicationConfiguration {
 
 	@Value("${oauth2.client.id}")
